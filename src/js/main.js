@@ -1,1 +1,1 @@
-console.log("hello world javascript");
+console.log("javascript entry point");
