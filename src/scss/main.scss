@@ -120,12 +120,18 @@ body {
     display: flex;
     flex-direction: column;
     background: $boxes-color;
-    padding: 10px 20px;
     border-radius: 30px 30px 30px 0px;
-    .title-and-para{
-        
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.post-photo {
+    overflow: hidden;
+    img {
+        width: 100%;
     }
-
+}
+.inner-box-wrapper {
+    padding: 10px 20px;
 }
 
 .news-color {
@@ -142,4 +148,7 @@ body {
 }
 .center-text {
     text-align: center;
+}
+.research-color {
+    color: grey;
 }
