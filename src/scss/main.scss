@@ -3,4 +3,31 @@
 body {
     background-color: $background-color;
     color: $text-matte-color;
+
+}
+
+.first-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 40px;    
+}
+
+.main-left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 50%;
+    height: 100px;
+    background: rgb(158, 158, 248);
+}
+.main-right-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    height: 100px;
+    background: rgb(253, 173, 173);
 }
