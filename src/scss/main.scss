@@ -32,18 +32,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
     width: 49%;
-    height: 100px;
-    background: rgb(158, 158, 248);
 }
 .main-right-col {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 49%;
-    height: 100px;
-    background: rgb(253, 173, 173);
 }
 .big-box {
     background: $boxes-color;
@@ -151,4 +146,19 @@ body {
 }
 .research-color {
     color: grey;
+}
+
+.smaller-left-column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 48%;
+}
+
+
+.smaller-right-column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 48%;
 }
