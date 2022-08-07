@@ -7,7 +7,7 @@ body {
 }
 .title-and-para{
     .category {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 0.625rem;
     }
     .para{
@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 
-    width: 50%;
+    width: 49%;
     height: 100px;
     background: rgb(158, 158, 248);
 }
@@ -41,7 +41,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    width: 49%;
     height: 100px;
     background: rgb(253, 173, 173);
 }
@@ -58,14 +58,88 @@ body {
     h2, p{
         color: $big-box-fonts-color;
     }
+    margin-bottom: 30px;
 }
 .black-shaded-rectangle {
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .author {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+.author-thumbnail {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid $author-name-color;
+    margin: 10px 10px 10px 0px;
+    overflow: hidden;
+    img {
+        width: 32px;
+    }
+}
+.author-text {
+    display: flex;
+    flex-direction: column;
+    
+    p{
+        font-size: 0.625rem;
+        font-weight: 400;
+        padding: 0px;
+        margin: 0px;
+    }
+    .author-name {
+        color: $author-name-color;
+    }
+}
+
+.lower-left-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .smaller-left-column-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 48%;
+    }
+    .smaller-right-column-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 48%;
+    }
+}
+.small-box {
+    display: flex;
+    flex-direction: column;
+    background: $boxes-color;
+    padding: 10px 20px;
+    border-radius: 30px 30px 30px 0px;
+    .title-and-para{
+        
+    }
+
+}
+
+.news-color {
+    color: $news-color;
+}
+.category-color {
+    color: $category-color;
+}
+.social-media-color {
+    color: $social-media-color;
+}
+.industry-color {
+    color: $industry-color;
+}
+.center-text {
+    text-align: center;
 }
