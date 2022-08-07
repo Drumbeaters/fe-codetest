@@ -26,6 +26,7 @@ body {
     justify-content: space-between;
     flex-wrap: nowrap;
     margin: 40px;    
+    max-width: 1728px;
 }
 
 .main-left-col {
@@ -161,4 +162,16 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     width: 48%;
+}
+
+@media screen and (max-width: 1200px){
+    .first-section-wrapper{
+        flex-direction: column;
+    }
+    .main-left-col {
+        width: 100%;
+    }
+    .main-right-col {
+        width: 100%;
+    }
 }
